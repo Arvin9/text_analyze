@@ -14,7 +14,7 @@ class HomeController extends Controller {
     let obj = new Object();
     obj.name = "hello";
     await this.ctx.render('hello.ejs', {
-        data: 'world',
+        data: 'world git',
     });
   }
 }
